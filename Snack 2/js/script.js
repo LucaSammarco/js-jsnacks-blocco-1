@@ -11,4 +11,9 @@
 
 const partyMembers = ["Luca", "Giovanni", "Michela", "Francesco", "Laura", "Teresa", "Alice" ]
 
-const userInvite = prompt ("Check your name on the list") //prova
+const userInvite = prompt ("Check your name on the list");
+
+if (userInvite === partyMembers) {
+
+    console.log(userInvite)
+} 
