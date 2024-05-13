@@ -11,4 +11,4 @@
 
 const partyMembers = ["Luca", "Giovanni", "Michela", "Francesco", "Laura", "Teresa", "Alice" ]
 
-const userInvite = prompt ("Check your name on the list")
+const userInvite = prompt ("Check your name on the list") //prova
