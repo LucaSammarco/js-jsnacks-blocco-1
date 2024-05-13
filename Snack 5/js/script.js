@@ -10,4 +10,9 @@ let numFour = parseInt(prompt("Select a number"));
 let numFive = parseInt(prompt("Select a number"));
 let numSix = parseInt(prompt("Select a number"));
 
-const oddArray = [""] 
+const oddArray = [] 
+
+
+if (numOne % 2 == 1 ) {
+    oddArray.push (numOne);    
+}
