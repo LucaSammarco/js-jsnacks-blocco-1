@@ -1,8 +1,13 @@
-//L'utente inserisce due numeri in successione, con due prompt. Il software stampa il maggiore.
-
-const numOne = prompt ("First Number");
-const numTwo = prompt ("Second Number");
-
-console.log(Math.max(numOne, numTwo));
+// Crea un array vuoto.
+//  Chiedi per 6 volte all'utente di inserire un numero,
+//  se è dispari inseriscilo nell'array.
 
 
+let numOne = parseInt(prompt("Select a number"));
+let numTwo = parseInt(prompt("Select a number"));
+let numThree = parseInt(prompt("Select a number"));
+let numFour = parseInt(prompt("Select a number"));
+let numFive = parseInt(prompt("Select a number"));
+let numSix = parseInt(prompt("Select a number"));
+
+const oddArray = [""] 
