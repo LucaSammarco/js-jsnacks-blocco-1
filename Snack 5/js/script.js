@@ -16,3 +16,4 @@ const oddArray = []
 if (numOne % 2 == 1 ) {
     oddArray.push (numOne);    
 }
+
