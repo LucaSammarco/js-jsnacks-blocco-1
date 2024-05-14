@@ -13,11 +13,15 @@ const divDispari = document.createElement('div');
 snack8.appendChild(divDispari);
 divDispari.classList.add("rossi");
 
-const numeri = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const numeri = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 111, 2457];
 
 for (let index = 0; index < numeri.length; index++) {
-    if (num % 2 === 0) {
+    if (numeri[index]  % 2 === 0) {
         divPari.innerHTML += numeri[index];
+    }
+
+    else {
+        divDispari.innerHTML += numeri[index];
     }
     
 }
